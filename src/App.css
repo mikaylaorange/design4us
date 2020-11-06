@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(127.14deg, #FFEAD0 -4.18%, #D9B391 7.06%, #CEA37F 10.32%, #C69872 12.69%, #BE8D65 14.95%, #B17A50 18.72%, #9E704D 24.24%, #966B4C 26.53%, #8A644A 30.21%, #7C5C48 34.18%, #735747 36.65%, #594843 39.95%, #4A3F41 44.16%, #3D383F 46.49%, #2F303E 48.89%, #1D263B 52.2%), #1D263B;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
