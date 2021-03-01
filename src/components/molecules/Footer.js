@@ -34,7 +34,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   padding-bottom: 80px;
-  padding-top: 80px;
+  padding-top: 50px;
   background: white;
 `;
 
@@ -43,7 +43,7 @@ const FooterUI = () => {
     <Container>
       <Links>Ready To Design?</Links>
       <Button
-        href="https://tlzr74t36d8.typeform.com/to/CxuePv4Z"
+        href="https://tlzr74t36d8.typeform.com/to/hse2SCMO"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -4,7 +4,7 @@ import CountdownCard from '../atoms/countdown-card'
 import styled from "@emotion/styled";
 
 const Container = styled.div`
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;

@@ -8,7 +8,6 @@ import Team from "../molecules/Team";
 import Footer from "../molecules/Footer"
 const Container = styled.div`
   width: 100vw;
-  height: 100vh;
   background: #ffffff;
 	display: flex;
 	flex-direction: column;
@@ -22,7 +21,7 @@ const Home = () => {
       <Landing />
       <About />
       <Schedule />
-      {/* <Team/> */}
+      <Team/>
 			<Footer/>
     </Container>
   );

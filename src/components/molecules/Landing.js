@@ -77,9 +77,10 @@ align-items: center;
 `
 const Container = styled.div`
 
-  padding-top: 7em;
+  padding-top: 10em;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   @media only screen and (max-width: 768px) {
     padding-top: 5em;
@@ -103,9 +104,8 @@ wdith: 50vw;
 display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 10em;
+  padding-left: 5em;
   padding-right: 5em;
-  line-height: .05em;
   @media only screen and (max-width: 768px) {
     padding-left: 5em;
     padding-right:5 em;
@@ -138,7 +138,8 @@ function Landing() {
       </Link>
 
       <RegisterButton
-          href="https://tlzr74t36d8.typeform.com/to/CxuePv4Z"
+          href="https://tlzr74t36d8.typeform.com/to/hse2SCMO"
+
           target="_blank"
           rel="noopener noreferrer"
           >

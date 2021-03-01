@@ -38,6 +38,9 @@ const RightNav = ({ open }) => {
       <Link to="schedule" spy={true} smooth={true} offset={50} duration={500}>
         <li>Schedule</li>
       </Link>
+      <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
+        <li>Meet The Team</li>
+      </Link>
     </Ul>
   );
 };

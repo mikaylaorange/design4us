@@ -1,6 +1,6 @@
 export const pageText = {
   aboutDescription: `The Design4US (Design for Underrepresented Students) Designathon is a virtual mini 
-  design series and design-centric hackathon that will engage and challenge students in the field of design and research, 
+  design series and design-centric hackathon that will engage and challenge HBCU students in the field of design and research, 
   educate them on the different career fields within UX, and equip them with soft skills which 
   will benefit them both in and out of industry. HBCU students of all levels and majors are welcome to register for the event!
   `,
