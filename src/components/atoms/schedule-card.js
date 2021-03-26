@@ -21,7 +21,6 @@ const CardFront = styled.div`
   height: 31em;
   background: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
-  cursor: pointer;
   white-space: normal;
   display: grid;
 
@@ -47,25 +46,20 @@ const Container = styled.div`
 
 
 
-const ScheduleCardUI = ({ cardText, overlayText }) => {
+const ScheduleCardUI = ({ cardText, overlayText, time }) => {
 
 
   return (
     <Container>
       <CardFront>
         <Title>{cardText}</Title>
+        <Description>{time}</Description>
         <Description>{overlayText}</Description>
       </CardFront>
- 
-      {/* {overlay && 
-      <CardBack onClick={() => showOverlay(!overlay)}>
-      <Title>{overlayText}</Title>
-      </CardBack>} */}
-
     </Container>
   );
 };
-function ScheduleCard({ cardText, overlayText }) {
-  return <ScheduleCardUI cardText={cardText} overlayText={overlayText} />;
+function ScheduleCard({ cardText, overlayText, time }) {
+  return <ScheduleCardUI cardText={cardText} overlayText={overlayText} time={time} />;
 }
 export default ScheduleCard;

@@ -1,12 +1,12 @@
 import firebase from 'firebase'
-
+import FIREBASE_CONSTANTS from "./consts"
 const firebaseConfig = {
-  apiKey: "AIzaSyDzBH2ibc1OUVvbgOyM4U0usHyPhSjACJE",
-  authDomain: "design4us-3149c.firebaseapp.com",
-  projectId: "design4us-3149c",
-  storageBucket: "design4us-3149c.appspot.com",
-  messagingSenderId: "413021800320",
-  appId: "1:413021800320:web:5ee0d9bcbacf2c1a822365"
+  apiKey: FIREBASE_CONSTANTS.apiKey,
+  authDomain: FIREBASE_CONSTANTS.authDomain,
+  projectId: FIREBASE_CONSTANTS.projectId,
+  storageBucket: FIREBASE_CONSTANTS.storageBucket,
+  messagingSenderId: FIREBASE_CONSTANTS.messagingSenderId,
+  appId:  FIREBASE_CONSTANTS.appId
 };
 
 firebase.initializeApp(firebaseConfig)

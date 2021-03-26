@@ -15,12 +15,12 @@ function ScheduleBar() {
 
  return (
    <Container>
-     <ScheduleCard cardText={pageText.dayOneTitle} overlayText={pageText.dayOneText}/>
-     <ScheduleCard cardText={pageText.dayTwoTitle} overlayText={pageText.dayTwoText}/>
-     <ScheduleCard cardText={pageText.dayThreeTitle} overlayText={pageText.dayThreeText}/>
-     <ScheduleCard cardText={pageText.dayFourTitle} overlayText={pageText.dayFourText}/>
-     <ScheduleCard cardText={pageText.dayFiveTitle} overlayText={pageText.dayFiveText}/>
-     <ScheduleCard cardText={pageText.daySixTitle} overlayText={pageText.daySixText}/>
+     <ScheduleCard cardText={pageText.dayOneTitle} overlayText={pageText.dayOneText} time="7:00 p.m. - 8:30 p.m. EST"/>
+     <ScheduleCard cardText={pageText.dayTwoTitle} overlayText={pageText.dayTwoText} time="7:00 p.m. - 8:30 p.m. EST"/>
+     <ScheduleCard cardText={pageText.dayThreeTitle} overlayText={pageText.dayThreeText} time="7:00 p.m. - 8:30 p.m. EST"/>
+     <ScheduleCard cardText={pageText.dayFourTitle} overlayText={pageText.dayFourText} time="6:00 p.m. - 7:15 p.m. EST"/>
+     <ScheduleCard cardText={pageText.dayFiveTitle} overlayText={pageText.dayFiveText} time="all day"/>
+     <ScheduleCard cardText={pageText.daySixTitle} overlayText={pageText.daySixText} time="11:30 a.m. - 7:30 p.m. EST"/>
    </Container>
  )
 } export default ScheduleBar
