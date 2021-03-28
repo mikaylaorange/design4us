@@ -1,5 +1,5 @@
 import firebase from 'firebase'
-import FIREBASE_CONSTANTS from "./consts"
+import {FIREBASE_CONSTANTS} from "./consts"
 const firebaseConfig = {
   apiKey: FIREBASE_CONSTANTS.apiKey,
   authDomain: FIREBASE_CONSTANTS.authDomain,

@@ -22,7 +22,6 @@ const Home = () => {
       <About />
       <Schedule />
       <Team/>
-			<Footer/>
     </Container>
   );
 };

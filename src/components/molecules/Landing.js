@@ -137,14 +137,6 @@ function Landing() {
       <ScheduleButton>View Schedule</ScheduleButton>
       </Link>
 
-      <RegisterButton
-          href="https://tlzr74t36d8.typeform.com/to/hse2SCMO"
-
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-            Register
-        </RegisterButton>
         </ButtonContainer>
         </TitleContainer>
         <LandingImage src={require('../../images/landing-image.png')}/>
